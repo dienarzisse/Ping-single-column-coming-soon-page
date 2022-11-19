@@ -133,9 +133,6 @@ form {
 }
 
 @media screen and (min-width: 600px) {
-  .logo {
-    margin: 2rem 0;
-  }
   main {
     max-width: 600px;
   }
