@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  max-width: 85%;
+}
+
+.logo {
+  margin: 5rem 0 2rem 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: hsl(0deg, 0%, 59%);
+  margin: 1rem 0;
+}
+
+span {
+  font-weight: 700;
+  color: hsl(209deg, 33%, 12%);
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0 0 2rem 0;
+}
+
+label {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.email-and-message {
+  width: 100%;
+}
+
+.email {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  width: 100%;
+  border-radius: 2rem;
+  outline: 1px solid transparent;
+  border: 1px solid hsl(223deg, 87%, 63%);
+  color: hsl(0deg, 0%, 59%);
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+}
+
+.invalid-message {
+  display: none;
+  color: hsl(354deg, 100%, 66%);
+  font-weight: 300;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.submit {
+  background-color: hsl(223deg, 87%, 63%);
+  padding: 0.75rem 0;
+  width: 100%;
+  border-radius: 2rem;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  color: white;
+  font-weight: 700;
+  box-shadow: 1px 1px 5px 1px #7ea0f6;
+  cursor: pointer;
+}
+
+.dashboard {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(223deg, 87%, 63%);
+  width: 25%;
+  margin-bottom: 1rem;
+}
+
+.fa {
+  text-decoration: none;
+  text-align: center;
+  margin: 0.5rem;
+  border: 1px solid hsl(223deg, 100%, 88%);
+  color: hsl(223deg, 87%, 63%);
+  padding: 0.5rem;
+  min-width: 2.5rem;
+  border-radius: 100%;
+}
+
+.copyright {
+  color: hsl(0deg, 0%, 59%);
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.invalid {
+  border: 1px solid hsl(354deg, 100%, 66%);
+}
+
+@media screen and (min-width: 600px) {
+  .logo {
+    margin: 2rem 0;
+  }
+  main {
+    max-width: 600px;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .email {
+    padding: 1rem 1rem;
+    margin: 0;
+    width: 100%;
+  }
+  .submit {
+    padding: 1rem 1rem;
+    margin: 0 0 0 2rem;
+    width: 40%;
+  }
+  .invalid-message {
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .dashboard {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  .fa:hover {
+    color: white;
+    background-color: hsl(223deg, 87%, 63%);
+    border: 1px solid hsl(223deg, 87%, 63%);
+  }
+}/*# sourceMappingURL=styles.css.map */
